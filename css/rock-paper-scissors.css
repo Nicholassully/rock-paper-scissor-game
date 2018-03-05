@@ -1,0 +1,15 @@
+body{
+  background-color: seagreen;
+}
+
+.center{
+  text-align: center;
+}
+
+.spacing{
+  padding: 20px;
+}
+
+.fontStyle{
+  font-family: 'Arvo', serif;
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/rock-paper-scissors.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="center fontStyle"> Pick wisely!!! </h1>
+  <div class="center">
+      <button id="rock" onclick="userInput('rock')" class="btn btn-primary btn-lg fa fa-hand-rock-o"> Rock</button>
+      <button id="paper" onclick="userInput('paper')" class="btn btn-primary btn-lg fa fa-hand-paper-o"> Paper</button>
+      <button id="scissors" onclick="userInput('scissors')" class="btn btn-primary btn-lg fa fa-hand-scissors-o"> Scissors</button>
+  </div>
+  <div id="pick" class = "spacing center fontStyle"></div>
+  <div id="result" class = "spacing center fontStyle "></div>
+<div class="center">
+  <button onclick="playAgain()" class= "btn btn-primary btn-lg fontStyle">Reset</button>
+</div>
+  <div id="score" class = "center fontStyle"></div>
+  <script src="index.js"></script>
+</body>
+
+</html>
